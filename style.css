@@ -6,6 +6,7 @@ button {
   background-color: green;
   color: white;
   font-family: Monospace;
+  margin: 5px 0px 10px 0px;
 }
 
 body {
@@ -16,4 +17,12 @@ body {
 
 hr {
   border: 1px black solid;
+}
+
+kbd {
+  line-height: 12px;
+}
+
+header {
+  text-decoration: underline;
 }
