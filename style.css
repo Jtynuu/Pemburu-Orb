@@ -1,1 +1,19 @@
+button {
+  border: solid 2px purple;
+  border-radius: 15px 7px;
+  padding: 15px 25px 15px 25px;
+  position: relative;
+  background-color: green;
+  color: white;
+  font-family: Monospace;
+}
 
+body {
+  background: #1ab9e1;
+  font-family: Monospace;
+  text-align: center;
+}
+
+hr {
+  border: 1px black solid;
+}
