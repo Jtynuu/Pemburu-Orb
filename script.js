@@ -5,11 +5,17 @@ function miniGames() {
   if (alpha) {
     const prompt = parseInt(window.prompt("Masukkan Angka! *bebas"));
     let random = Math.floor(Math.random() * 10) + 1;
+    let random2 = Math.floor(Math.random() * 5) + 1;
     const result = random * prompt;
+    const result2 = random2 * prompt;
+    const alpha = (result) + (result2);
 
     if (prompt) {
       window.alert("Buka Consolenya Sekarang!")
-      console.info(result + " Orbs telah didapatkan!");
+      console.info("Anda telah mendapatkan " + result + " Orbs dan " + result2 + " Koin!");
+      document.getElementById("resultIndex").innerHTML = result + " Orbs";
+      document.getElementById("result2Index").innerHTML = result2 + " Koin";
+      document.getElementById("hasil").innerHTML = alpha + " Total";
     } else {
       window.alert("Buka Consolenya Sekarang!");
       console.info("Sepertinya anda belum memasukkan angka pada sesi prompt.");
