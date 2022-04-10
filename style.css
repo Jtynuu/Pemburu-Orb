@@ -1,27 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 button {
   border: solid 2px purple;
   border-radius: 15px 7px;
   padding: 15px 25px 15px 25px;
   position: relative;
   background-color: hotpink;
-  font-family: Monospace;
   margin: 5px 0px 10px 0px;
+  font-family: 'M PLUS Rounded 1c', Sans-Serif;
 }
 
 body {
   background: skyblue;
-  font-family: Monospace;
+  font-family: 'M PLUS Rounded 1c', Sans-Serif;
   text-align: center;
+  font-size: 13px;
 }
 
 hr {
   border: 1px black solid;
 }
 
-kbd {
-  line-height: 12px;
+footer {
+  line-height: 10px;
 }
 
 header {
   text-decoration: underline;
+}
+
+section {
+  position: relative;
+  padding: 15px;
+  border: 1px solid purple;
+  border-radius: 15px 7px;
+}
+
+#resultIndex {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  border: 2px solid purple;
+  border-radius: 15px 7px;
+}
+
+#result2Index {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  border: 2px solid purple;
+  border-radius: 15px 7px;
+}
+
+#hasil {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  border: 2px solid purple;
+  border-radius: 15px 7px;
 }
