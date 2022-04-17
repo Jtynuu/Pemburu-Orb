@@ -1,4 +1,5 @@
-// Mini Games is mini program.
+
+// Dibawah adalah kode sistem dari Pemburu Orb
 function miniGames() {
   const bahan = ["Bawang", "Seledri", "Apel", "Pare", "Jagung", "Kol", "Tomat"];
   const satuan = ["ohm", "Ampere", "Volt", "Newton", "Joule", "Watt"];
