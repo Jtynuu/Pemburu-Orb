@@ -5,8 +5,8 @@ button {
   border-radius: 15px 7px;
   padding: 15px 25px 15px 25px;
   position: relative;
-  background-color: hotpink;
-  margin: 5px 0px 10px 0px;
+  background-color: #f3cf20;
+  margin: 5px 0 10px 0;
   font-family: 'M PLUS Rounded 1c', Sans-Serif;
 }
 
@@ -33,7 +33,7 @@ section {
   position: relative;
   padding: 15px;
   border: 1px solid purple;
-  border-radius: 15px 7px;
+  border-radius: 15px 15px;
 }
 
 #resultIndex {
@@ -56,7 +56,7 @@ section {
   border-radius: 15px 7px;
 }
 
-#hasil {
+#result3Index {
   position: relative;
   display: inline-block;
   margin: 10px;
