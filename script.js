@@ -1,26 +1,28 @@
 // Mini Games is mini program.
 function miniGames() {
-  const alpha = window.confirm("Apakah anda ingin bermain gamenya?");
+  const bahan = ["Bawang", "Seledri", "Apel", "Pare", "Jagung", "Kol", "Tomat"];
+  const satuan = ["ohm", "Ampere", "Volt", "Newton", "Joule", "Watt"];
 
-  if (alpha) {
-    const prompt = parseInt(window.prompt("Masukkan Angka! *bebas"));
-    let random = Math.floor(Math.random() * 10) + 1;
-    let random2 = Math.floor(Math.random() * 5) + 1;
+  if (true) {
+    const prompt = Math.floor(Math.random() * 100) + 1;
+    let random = Math.floor(Math.random() * 27) + 1;
+    let random2 = Math.floor(Math.random() * 13) + 1;
+    let random3 = Math.floor(Math.random() * 12) + 1;
     const result = random * prompt;
     const result2 = random2 * prompt;
-    const alpha = (result) + (result2);
+    const result3 = random3 * prompt;
+    const bahanAcak = bahan[Math.floor(Math.random() * bahan.length)];
+    const powerAcak = satuan[Math.floor(Math.random() * satuan.length)];
 
     if (prompt) {
-      window.alert("Buka Consolenya Sekarang!")
-      console.info("Anda telah mendapatkan " + result + " Orbs dan " + result2 + " Koin!");
-      document.getElementById("resultIndex").innerHTML = result + " Orbs";
-      document.getElementById("result2Index").innerHTML = result2 + " Koin";
-      document.getElementById("hasil").innerHTML = alpha + " Total";
+      document.getElementById("resultIndex").innerHTML = result.toLocaleString() + " Orbs";
+      document.getElementById("result2Index").innerHTML = result2.toLocaleString() + ` ${bahanAcak}`;
+      document.getElementById("result3Index").innerHTML = result3.toLocaleString() + " Koin";
+      
+      document.getElementById("ket").innerHTML = `*Anda telah menggunakan power sebesar ${prompt} ${powerAcak}. Dan anda mendapatkan...`;
+      
     } else {
-      window.alert("Buka Consolenya Sekarang!");
-      console.info("Sepertinya anda belum memasukkan angka pada sesi prompt.");
+      window.alert("Err! Sepertinya anda belum memasukkan angka pada sesi form, atau ada unsur huruf ketika anda memasukkannya... Jika merasa ada yang salah segera hubungi pihak pengembang melalui twitter di https://twitter.com/goose07");
     }
-  } else {
-    console.info("Anda telah menolak pengajakan game, anda sangat sus.");
-  };
-};
+  }
+}
