@@ -22,7 +22,7 @@ hr {
 }
 
 footer {
-  line-height: 10px;
+  line-height: 9px;
 }
 
 header {
@@ -37,26 +37,6 @@ section {
 }
 
 #resultIndex {
-  position: relative;
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
-  background: white;
-  border: 2px solid purple;
-  border-radius: 15px 7px;
-}
-
-#result2Index {
-  position: relative;
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
-  background: white;
-  border: 2px solid purple;
-  border-radius: 15px 7px;
-}
-
-#result3Index {
   position: relative;
   display: inline-block;
   margin: 10px;
